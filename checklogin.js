@@ -3,7 +3,6 @@ function checkLogin(){
     var password = document.getElementById("password").value;
     if ( username == "admin" && password == "123456"){
         alert ("Login successfully");
-        window.location.href = "/home.html";
-        return false;
+        window.location = "/home.html";
     }
 }

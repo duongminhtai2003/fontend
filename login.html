@@ -6,7 +6,7 @@
 	<script src="checklogin.js"></script>
 </head>
 <body>
-	<form>
+	<form action="home.html" onsubmit="checklLogin()">
 	  	<div class="imgcontainer">
 	    	<img src="image/login-user.png" alt="Avatar" class="avatar">
 	  	</div>
@@ -17,7 +17,7 @@
 			<label><b>Password</b></label>
 			<input type="password" placeholder="Enter Password" id="password">
 
-			<button type="submit" onclick="checkLogin()">Login</button>
+			<button type="submit">Login</button>
 		</div>
 	</form>
 </body>
