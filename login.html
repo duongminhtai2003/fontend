@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="login.css">
-	<script src="checklogin.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="checklogin.js"></script>
 </head>
+
 <body>
-	<form action="home.html" onsubmit="checklLogin()">
-	  	<div class="imgcontainer">
-	    	<img src="image/login-user.png" alt="Avatar" class="avatar">
-	  	</div>
-		<div class="container">
-			<label><b>Username</b></label>
-			<input type="text" placeholder="Enter Username" id="username">
+    <form>
+        <div class="imgcontainer">
+            <img src="image/login-user.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="username">
 
-			<label><b>Password</b></label>
-			<input type="password" placeholder="Enter Password" id="password">
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="password">
 
-			<button type="submit">Login</button>
-		</div>
-	</form>
+            <input type="button" value="login" onclick="checkLogin()">
+        </div>
+    </form>
 </body>
+
 </html>
