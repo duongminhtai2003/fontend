@@ -5,6 +5,6 @@ function checkLogin() {
         alert('Please username and password');
     } else {
         alert('Login success');
-        window.location = "home.html";
+        window.location = "./home.html";
     }
 }

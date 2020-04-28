@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Verify code</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/verify.css'>
+
+</head>
+
+<body>
+    <form id="form_register">
+        <div class="container">
+            <input type="text" tabindex="1" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="text" tabindex="2" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="text" tabindex="3" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="text" tabindex="4" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="text" tabindex="5" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="text" tabindex="6" maxlength="1" onkeyup="toUnicode(this,this.value)">
+            <input type="submit" value="VERIFY" disabled class="my-submit-class">
+        </div>
+    </form>
+    <script src="js/verify.js"></script>
+</body>
+
+</html>
