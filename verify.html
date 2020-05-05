@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form id="form_register">
+    <form id="form_register" action="login.html">
         <div class="container">
             <input type="text" tabindex="1" maxlength="1" onkeyup="toUnicode(this,this.value)">
             <input type="text" tabindex="2" maxlength="1" onkeyup="toUnicode(this,this.value)">
@@ -19,7 +19,7 @@
             <input type="text" tabindex="4" maxlength="1" onkeyup="toUnicode(this,this.value)">
             <input type="text" tabindex="5" maxlength="1" onkeyup="toUnicode(this,this.value)">
             <input type="text" tabindex="6" maxlength="1" onkeyup="toUnicode(this,this.value)">
-            <input type="submit" value="VERIFY" disabled class="my-submit-class">
+            <input type="submit" value="VERIFY" disabled class="my-submit-class" id="my-submit-id">
         </div>
     </form>
     <script src="js/verify.js"></script>
