@@ -7,7 +7,6 @@
     <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/login.css'>
-    <script src='js/checklogin.js'></script>
 </head>
 
 <body>
@@ -23,9 +22,13 @@
             <input type="password" placeholder="Enter Password" id="password">
 
             <input type="button" value="Login" onclick="checkLogin()">
+            <!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+            </fb:login-button> -->
+            <button type="button" id="fb">Continue with Facebook</button>
         </div>
     </form>
-
+    <script src='js/checklogin.js'></script>
+    <script src='js/loginFacebook.js'></script>
 </body>
 
 </html>
